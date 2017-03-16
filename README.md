@@ -1,10 +1,8 @@
 
-XFjUQUg6HNxzIQYtzNaEjy8Ts743x0ePVWtOFbQU
+USDA Food Composition Databases:
 
-You can start using this key to make web service requests. Simply pass your key in the URL when making a web request. Here's an example:
-
-https://api.data.gov/nrel/alt-fuel-stations/v1/nearest.json?api_key=XFjUQUg6HNxzIQYtzNaEjy8Ts743x0ePVWtOFbQU&location=Denver+CO
-
+https://ndb.nal.usda.gov/ndb/doc/apilist/API-SEARCH.md
+https://ndb.nal.usda.gov/ndb/doc/apilist/API-NUTRIENT-REPORT.md
 
 
 ##Javascript Project Setup
