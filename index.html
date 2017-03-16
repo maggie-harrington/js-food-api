@@ -10,10 +10,28 @@
   <body>
     <div class='container'>
       <h1>Food Composition</h1>
+      <br>
       <div class="box">
         <form id="food-form">
           <label for="food">Enter a food:</label>
           <input id="food" name="food" type="text">
+          <br><br>
+          <label for="number-of-results">Number of results:</label>
+          <input id="number-of-results" type="number" name="number-of-results">
+          <br><br>
+          <div class="radio">
+            <label>
+              <input type="radio" name="reference" value="Standard+Reference" checked>
+              Standard Reference
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="reference" value="Branded+Food+Products" checked>
+              Branded Food Products
+            </label>
+          </div>
+          <br>
           <button id="result" type="submit">Submit</button>
         </form><br>
         <div id="show-nutrition">
